@@ -10,4 +10,4 @@ class NoteSerializer(serializers.ModelSerializer):
         # the meta describes the information in our particular class that
         model = Note
         
-        field = '__all__'
+        fields = '__all__'

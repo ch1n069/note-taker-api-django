@@ -1,7 +1,7 @@
 # serializes the model data 
 from dataclasses import field
 from .models import Note
-from rest_framework import 
+from rest_framework import serializers
 
 
 

@@ -8,5 +8,5 @@ from app.serializers import NoteSerializer
 
 class NotesViewset(viewsets.ModelViewSet):
     '''this is responsible for fetching all the notes '''
-    serializer =  NoteSerializer
+    serializer_class =  NoteSerializer
     queryset = Note.objects.all()

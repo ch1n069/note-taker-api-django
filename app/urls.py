@@ -5,7 +5,7 @@ from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
 
-router.register('/posts',NotesViewset)
+router.register('posts',NotesViewset)
 
 urlpatterns = [
     path('', include(router.urls)),

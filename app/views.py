@@ -6,7 +6,7 @@ from app.serializers import NoteSerializer
 # the view sets allow us to create the http responses
 
 
-class NotesViewset(viewsets.ModelViewset):
+class NotesViewset(viewsets.ModelViewSet):
     '''this is responsible for fetching all the notes '''
     serializer =  NoteSerializer
     queryset = Note.objects.all()

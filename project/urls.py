@@ -25,12 +25,10 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="Snippets API",
+      title="Notes-taking app api",
       default_version='v1',
-      description="Test description",
-      terms_of_service="https://www.google.com/policies/terms/",
-      contact=openapi.Contact(email="contact@snippets.local"),
-      license=openapi.License(name="BSD License"),
+      description="This is are the note taking api endpoints",
+      
    ),
    public=True,
    permission_classes=[permissions.AllowAny],
